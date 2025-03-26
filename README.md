@@ -21,30 +21,32 @@ MongoDB (v4.4 or later)
 Installation
 
 Clone the Repository:
-bash``
-git clone https://github.com/onkardongare/E-Commerce-Backend.git
+```bash
+git clone https://github.com/onkardongare/E-Commerce-Backend.git```
 
-Navigate to the Project Directory:``
-bash``
-cd E-Commerce-Backend``
+Navigate to the Project Directory:
+```bash
+cd E-Commerce-Backend```
 
 Install Dependencies:
-bash``
-npm install``
+```bash
+npm install```
 
 Set Up Environment Variables:
 Create a .env file in the root directory and add the following:
-code``
+
+```code
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret``
+JWT_SECRET=your_jwt_secret```
+
 Replace your_mongodb_connection_string with your actual MongoDB connection string and your_jwt_secret with a secure secret key for JWT authentication.
 
 Usage
 Start the Development Server:
 
-bash``
-npm run dev``
+```bash
+npm run dev```
 The server will start on the port specified in your .env file (default is 3000).
 
 Access the API:
